@@ -1,17 +1,19 @@
 class Website:
-   def __init__(self, product, order):
-       self.product = product
-       self.order = order
-      
-   def add_product(self,item):
-        print(f"{self.product}")
-      
-   def special_offers(self):
-       print(f"{self.order} fruits and get a lire of milk free")
-      
-   def decribe_product(self):
-       print(f"{self.product} are available for purchase, both online and in store")
-  
-   def check_out(self):
-       print(f"{self.order} confirmed")
+    def __init__(self, name, url):
+        self.name = name
+        self.url = url
 
+    def get_name(self):
+        return f"{self.name}"
+
+    def get_url(self):
+        return f"{self.url}"
+
+    def set_url(self, new_url):
+        self.url = new_url
+        return f"{sel.url}"
+        
+    def print_details(self):
+        print(f"{self.name}")
+        print(f"{self.url}")
+        
