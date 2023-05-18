@@ -11,7 +11,7 @@ class Website:
 
     def set_url(self, new_url):
         self.url = new_url
-        return f"{sel.url}"
+        return f"{self.url}"
         
     def print_details(self):
         print(f"{self.name}")
